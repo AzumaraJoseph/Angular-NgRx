@@ -48,5 +48,6 @@ export class ProductEffect {
                 catchError(error => of(ProductApiActions.deleteProductFailure({ error: error })))
             ))
         )
-    })
+    });
+    
 }

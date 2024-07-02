@@ -1,6 +1,7 @@
 import { createFeatureSelector, createReducer, createSelector, on } from "@ngrx/store";
 import { User } from "../user";
 import * as UserActions from "./user.actions"
+
 // State for this Feature
 export interface UserState {
     maskUserName: boolean,

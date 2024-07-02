@@ -37,10 +37,6 @@ export class ProductShellComponent implements OnInit {
 
     // Do NOT subscribe here because it uses an async pipe
     this.displayCode$ = this.store.select(getShowProductCode);
-
-    // this.product$ = this.store.select(getCurrentProduct).pipe(tap(
-    //   currentProduct => this.displayProduct(currentProduct)
-    // ));
   }
 
   checkChanged(): void {

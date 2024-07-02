@@ -45,4 +45,3 @@ export interface State extends AppState.State {
         getProductFeatureState,
         state => state.error
     )
-    

@@ -75,7 +75,6 @@ export class ProductEditComponent implements OnInit, OnChanges {
       this.displayProduct(product)
     }
   }
-
   // Also validate on blur
   // Helpful if the user tabs through required fields
   blur(): void {

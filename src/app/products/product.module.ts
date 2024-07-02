@@ -23,6 +23,7 @@ const productRoutes: Routes = [
     RouterModule.forChild(productRoutes),
     StoreModule.forFeature('product', productReducer),
     // first argument is for the feature slice of state, while the 2nd is for the reducer fn
+    
     EffectsModule.forFeature([ProductEffect])
   ],
   declarations: [

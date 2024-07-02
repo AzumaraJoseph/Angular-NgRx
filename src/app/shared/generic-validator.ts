@@ -15,7 +15,6 @@ export class GenericValidator {
   //     validationRuleName2: 'Validation Message.'
   // }
   constructor(private validationMessages: { [key: string]: { [key: string]: string } }) {
-
   }
 
   // Processes each control within a FormGroup
@@ -49,5 +48,4 @@ export class GenericValidator {
     }
     return messages;
   }
-
 }
